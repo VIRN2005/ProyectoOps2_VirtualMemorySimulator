@@ -28,13 +28,13 @@ Este script en Python simula la **gestión de memoria virtual** utilizando disti
 ### ▶️ Ejecutar el Simulador
 
 ```bash
-python memory_simulator_large.py <ruta_al_archivo_de_traza>
+python Virtual_Memory_Simulator.py <ruta_al_archivo_de_traza>
 ````
 
 ### Ejemplo:
 
 ```bash
-python memory_simulator_large.py trazas/ejemplo.trace
+python Virtual_Memory_Simulator.py gcc.trace
 ```
 
 ---
@@ -100,12 +100,3 @@ Ejemplo:
   * Tiempo de fallo de página: 10 ms (10,000,000 ns)
 
 ---
-
-## 🛠️ Autor
-
-Desarrollado para cursos de Sistemas Operativos o Arquitectura de Computadoras.
-
-```
-
-¿Quieres que también incluya una sección para licencia o contribuciones si planeas publicarlo en GitHub?
-```
